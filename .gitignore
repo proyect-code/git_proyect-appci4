@@ -1,0 +1,48 @@
+# 🌐 Entorno y configuración sensible
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# 🐘 Base de datos local y volúmenes
+pgdata/
+*.sql
+*.sqlite
+*.db
+
+# 🐳 Docker & certificados
+.dockerignore
+docker-compose.override.yml
+docker-compose.dev.yml
+nginx/certs/
+nginx/default.conf
+
+# 🔧 CI/CD herramientas
+jenkins/
+.gitlab/
+.gitlab-ci.yml
+
+# 🧪 Archivos temporales, IDEs y sistema
+.vscode/
+.idea/
+*.log
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# ⚙️ CodeIgniter artefactos y pruebas
+writable/
+tests/
+vendor/
+
+# 📤 Carpeta pública excluida por tu indicación
+public/
+
+# 📦 Node/npm si aplicara
+node_modules/
+npm-debug.log
+
+# 💬 Git internals
+.git/
