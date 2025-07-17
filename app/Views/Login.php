@@ -225,7 +225,7 @@
 
     <div class="heroe">
 
-        <h2>LOGIN desde la rama SAMS github</h2>
+        <h2>LOGIN desde la rama SAMS github (2)</h2>
 
     </div>
 
